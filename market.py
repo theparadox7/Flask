@@ -11,6 +11,9 @@ def home_page():
 def market_page():
     return render_template('market.html')
 
+@app.route('/login')
+def login_page():
+    return render_template('login.html')
 
 
 # @app.route('/about/<username>')

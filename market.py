@@ -9,7 +9,7 @@ def home_page():
 
 @app.route('/market')
 def market_page():
-    return render_template('market.html')
+    return render_template('market.html',item_name='Phone')
 
 @app.route('/login')
 def login_page():
